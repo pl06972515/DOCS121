@@ -1,35 +1,6 @@
--  <span style='color:Blue'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ A ] 策略标识</span>
--  [✴ [ 权限标识 ]IAuthorizationRequirement](v1.0.0)
--  -
--  [✡ [ 验证上下文 ]AuthorizationHandlerContext](v6.0.0)
--  [✴ [ 验证处理器 ]IAuthorizationHandler](v2.0.0)
--  <!--[☢ [ 策略驱动器 ]PassThroughAuthorizationHandler ](v2_6.0.0)-->
--  <!--[☢ [ 内置提供 ]IAuthorizationHandlerProvider](v2_7.0.0)-->
--  -
--  [✡ [ 内置 - 质询拒绝 ]AuthorizationHandler](v2_1.0.0)
--  [✡ [ 内置 - 指定声明 ]AuthorizationHandler](v2_2.0.0)
--  [✡ [ 内置 - 指定姓名 ]AuthorizationHandler](v2_3.0.0)
--  [✡ [ 内置 -  指定角色 ]IAuthorizationHandler](v2_4.0.0)
--  <!--[✡ [ 内置 - 指定操作 ]IAuthorizationHandler](v2_5.0.0)-->
--  
--  <span style='color:Red'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ Q ]授权服务</span>
--  [✴ [ 策略组 ]AuthorizationPolicy](c1.0.0)
--  [☢ [ 策略组 ]IAuthorizationPolicyProvider](c2.0.0)
--  -
--  [☢ [ 授权服务 ]IAuthorizationService](v3.0.0)
--  [✴ [ 服务注册 ]IServiceCollection](v4.0.0)
--  
--  <span style='color:Red'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ M ]路由集成</span>
--  [✴ [ 路由元数据 ]Attributes](M1.0.0)
--  <!--[✴ [ 路由元数据 ]AllowAnonymousAttribute](M2.0.0)-->
--  <!--[☢ [ 路由元数据 ]IAuthorizationRequirementData](M2_1.0.0)-->
--  <!--[☢ [ 认证授权 ]IPolicyEvaluator](M3.0.0)-->
--  <!--[☢ [ 请求处理 ]IAuthorizationMiddlewareResultHandler](M4.0.0)-->
--  [☢ [ 内置中间件 ]AuthorizationMiddleware](M5.0.0)
+-  <span style='color:Blue'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 队列说明 ]</span>
 -  
 -  <span style='color:Blue'>附录</span>
--  [🟢 [ 案例 ]应用提供](T1.0.0)
--  [🟢 [ 案例 ]路由注册](T2.0.0)
 -  
 
 

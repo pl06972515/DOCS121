@@ -9,7 +9,11 @@
 -  [ ☢ [ D ] 路由模式 ](M4.0.0.md)
 -  [ ✴ [ E ] 主题模式 ](M5.0.0.md)
 -  
+-  <span style='color:RED'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 关键要点 ]</span>
+-  [ ✡ [ A ] 消息可靠性 ](Q1.0.0.md)
+-  
 -  <span style='color:Blue'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 附录 ]</span>
+-  
 -  
 
 

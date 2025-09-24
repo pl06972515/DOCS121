@@ -1,5 +1,6 @@
 -  <span style='color:Blue'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 简要说明 ]</span>
 -  [✡ 部署说明 ](v1.0.0.md)
+-  [✡ C# ](v2.0.0.md)
 -  -
 -  
 -  <span style='color:RED'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 工作模式 ]</span>

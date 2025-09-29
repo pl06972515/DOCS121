@@ -18,10 +18,9 @@
 -  [ ✡ [ A ] 消息可靠性 ](Q1.0.0.md)
 -  [ ✡ [ B ] 消费者限流 ](Q2.0.0.md)
 -  
--  
 -  <span style='color:Blue'><img src="wwwroot/images/MB.svg" alt="" style="margin-bottom:-4px" />&nbsp;[ 附录 ]</span>
--  
--  
+-  [ ☢ [ T1 ] 如何保证消息不被重复消费 ](T1.0.0.md)
+-  [ ☢ [ T2 ] 如何解决掉消息堆积的问题 ](T2.0.0.md)
 
 
 

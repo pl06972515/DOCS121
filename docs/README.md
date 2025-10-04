@@ -3,13 +3,25 @@
 </p><br/>
 
 
-![image-20250922220127550](wwwroot\docImages\image-20250922220127550.png ':size=700')
-
 >[!WARNING|style: flat|label: MQ 架构设计 ]
 >
->(`RabbitMQ`) 是一个开源的消息中间件 <span style='color:red'>[ 采用`AMQP`( 高级消息队列协议 ) 进行消息投递 ]</span> [<span style='color:#008B00'>[👓 官方网站 ]</span>](https://www.rabbitmq.com/ ':target=_blank')
+>- (`RabbitMQ`) 是一个开源的消息中间件 <span style='color:red'>[ 采用`AMQP`( 高级消息队列协议 ) 进行消息投递 ]</span> [<span style='color:#008B00'>[👓 官方网站 ]</span>](https://www.rabbitmq.com/ ':target=_blank')
 >
-><span style='color:red'>[ 它允许应用程序之间进行异步通信，提供了一种高效、可扩展、可靠的消息传递机制 ]</span>
+>  <span style='color:red'>[ 它允许应用程序之间进行异步通信，提供了一种高效、可扩展、可靠的消息传递机制 ]</span>
+>
+><br/>
+>
+><span style='color:Blue'>[ 使用场景 ]</span>
+>
+>- <span style='color:Blue'>削峰填谷：在电商`双11`场景中，利用`MQ`进行`削峰填谷`是非常常见且有效的技术手段</span>
+>
+>  <span style='color:red'>[ 其核心思想是：将高并发请求(`如订单、支付等`)通过消息队列进行异步处理，避免瞬时流量直接冲击后端服务和数据库，从而实现系统的平稳运行 ]</span>
+>
+>- <span style='color:Blue'>异步处理( 秒杀系统 ) ：用户下单后，订单消息进入消息队列`MQ`[ 由后台服务异步处理后续步骤 - 如库存扣减、订单创建等 ]</span>
+>- <span style='color:red'>异步处理( 轮询场景 ) </span>
+>- <span style='color:red'>延迟处理( 轮询场景 ) </span>
+>
+><br/>
 >
 >![image-20250908234703547](wwwroot\docImages\image-20250908234703547.png)
 >
